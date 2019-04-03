@@ -1,0 +1,78 @@
+body{
+    font-family: 'Crete Round', serif;
+    font-size: 1.5em;
+    height:75vh;
+    margin:0;
+}
+#mainPage{
+    align-items: center;
+    background-color: #66BBFF;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin:0;
+}
+#panelBoard{
+    align-items: center;
+    background-color:#1155BB;
+    border: #000077 15px solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 75vh;
+    margin:30px;
+    width:75vw;
+}
+.answer{
+    margin :5px 20px 5px 20px;
+    padding: 5px;
+    width: 25vw;
+    height: 10vh;
+    text-align: center;
+    background-color: black;
+    border: #FFF 4px solid;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+}
+#buttonContainer{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    width:75vw;
+}
+.buttonItem{
+    background-color:#1155BB;
+    border: #000077 7px solid;
+    color: #000077;
+    padding: 10px 25px 10px 25px;
+    
+}
+#xBox{
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 25vh; 
+    left: 27vw;
+    right: 0;
+    bottom: 0;/* Black background with opacity */
+    z-index: 2;
+}
+#score{
+    background-color:#000;
+    border: white 7px solid;
+    color:white;
+}
+.x{
+    display: none;
+    width: 150px;
+    margin-left: 50px;
+    height:250px;
+}
