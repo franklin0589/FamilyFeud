@@ -46,9 +46,9 @@ let answerArray4=["Burpees 37","Push Ups 14","Pulls ups 9","Dead Bugs 6", "Muscl
 let answerArray5=["Appendix 29","Gallbladder 23","Spleen 20","Bladder 12", "Kidney 6", "Liver 6"];//Medium
 let answerArray6=["Uganda 74","Uruguay 68","Uzekistan 28","Ukraine 8", "United States 6"];//Hard
 let answerArray7=["Chem. room 29","MMC 17","Senior lounge 14","Cafeteria 11"];//Easy
-let answerArray8=["Lil Uzi Vert 14","Lil Pump 14","Lil Yachty 11","Lil Wayne 6", "Lil Peep 6"];//Medium
+let answerArray8=["Lil Uzi Vert 14","Lil Wayne 14","Lil Baby 11","Lil Nas X 6", "Lil Pump 6"];//Medium
 let answerArray9=["Pneumonoultramicroscopicsilicovolcanoconiosis 44","Ankylosing Spondylitis 20","Gastroenterodueodenectomy 12","Sphygmomanometer 12", "Otorhinolaryngologist 12", "Anaphylaxis 6","Myelomeningocele 3"];//Hard
-
+let answerArray10=["Basketball 31","Soccer 23","Football 9","Volleyball 9","Baseball 6"];
 switch(i){
     case 1:
         finalArray=answerArray1;
@@ -76,6 +76,9 @@ switch(i){
     break;
     case 9:
         finalArray=answerArray9;
+    break;
+    case 10:
+        finalArray=answerArray10;
     break;
     default:
         finalArray=answerArray1;
